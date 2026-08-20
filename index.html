@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BookHaven | Discover Your Next Great Read</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="site-header"></div>
+    <main>
+      <section class="hero-section">
+        <div class="container py-5">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-6 hero-copy">
+              <span class="eyebrow"
+                >A considered collection for curious minds</span
+              >
+              <h1>Discover Your Next Great Read</h1>
+              <p class="lead">
+                Explore timeless classics, inspiring stories, and bestselling
+                books — all in one place.
+              </p>
+              <div class="d-flex flex-wrap gap-3 mt-4">
+                <a class="btn btn-primary btn-lg" href="#books"
+                  >Explore Books <i class="bi bi-arrow-right ms-2"></i
+                ></a>
+                <a class="btn btn-outline-light btn-lg" href="cart.html"
+                  >Shop Now</a
+                >
+              </div>
+              <div class="hero-note mt-5">
+                <i class="bi bi-bookmark-star"></i
+                ><span>Carefully chosen stories, delivered to your door.</span>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="hero-art">
+                <img
+                  src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=1000&q=85"
+                  alt="Open book and reading glasses"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="books" class="section-space">
+        <div class="container">
+          <div
+            class="section-heading d-flex justify-content-between align-items-end flex-wrap gap-3"
+          >
+            <div>
+              <span class="eyebrow">Our recommendations</span>
+              <h2>Featured Books</h2>
+            </div>
+            <div class="search-panel">
+              <i class="bi bi-search"></i
+              ><input
+                id="book-search"
+                type="search"
+                placeholder="Search title, author, or category"
+                aria-label="Search books"
+              />
+            </div>
+          </div>
+          <div id="books-grid" class="row g-4 mt-2"></div>
+        </div>
+      </section>
+
+      <section id="categories" class="section-space categories-band">
+        <div class="container">
+          <div class="section-heading text-center">
+            <span class="eyebrow">Find your next shelf</span>
+            <h2>Browse by Category</h2>
+          </div>
+          <div id="categories-grid" class="row g-3 mt-3"></div>
+        </div>
+      </section>
+
+      <section id="about" class="section-space">
+        <div class="container">
+          <div class="row g-4 align-items-stretch">
+            <div class="col-lg-5">
+              <div class="about-panel h-100">
+                <span class="eyebrow">The BookHaven promise</span>
+                <h2>Good books make a room feel larger.</h2>
+                <p>
+                  We believe a great bookstore should feel like a quiet
+                  recommendation from a trusted friend. Our shelves bring
+                  together enduring voices, thoughtful new work, and the stories
+                  you will return to.
+                </p>
+                <a href="#books" class="text-link"
+                  >Browse the collection <i class="bi bi-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-lg-7">
+              <div class="row g-3 h-100" id="features-grid"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="newsletter-section">
+        <div class="container">
+          <div class="newsletter-inner row align-items-center g-4">
+            <div class="col-lg-6">
+              <span class="eyebrow">A note from our shelves</span>
+              <h2>Stay Updated With New Books</h2>
+              <p>
+                Subscribe to receive updates about new arrivals, exclusive
+                offers, and recommendations.
+              </p>
+            </div>
+            <div class="col-lg-6">
+              <form id="newsletter-form" class="newsletter-form">
+                <div class="input-group">
+                  <input
+                    id="newsletter-email"
+                    type="email"
+                    class="form-control"
+                    placeholder="Your email address"
+                    aria-label="Email address"
+                    required
+                  /><button class="btn btn-primary" type="submit">
+                    Subscribe
+                  </button>
+                </div>
+                <div
+                  id="newsletter-message"
+                  class="form-message"
+                  role="status"
+                ></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div id="site-footer"></div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/books.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

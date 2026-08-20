@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Atomic Habits by James Clear</title>
+  <desc id="desc">A deep green and gold book cover for Atomic Habits.</desc>
+  <rect width="700" height="1000" fill="#304d45"/>
+  <rect x="38" y="38" width="624" height="924" fill="none" stroke="#d6b477" stroke-width="3"/>
+  <circle cx="350" cy="425" r="128" fill="none" stroke="#d6b477" stroke-width="4"/>
+  <circle cx="350" cy="425" r="78" fill="none" stroke="#f1cf92" stroke-width="4"/>
+  <circle cx="350" cy="425" r="28" fill="#f1cf92"/>
+  <text x="350" y="190" text-anchor="middle" fill="#f1cf92" font-family="Arial,sans-serif" font-size="28" letter-spacing="6">TINY CHANGES</text>
+  <text x="350" y="650" text-anchor="middle" fill="#fffdf8" font-family="Georgia,serif" font-size="57" font-weight="bold">ATOMIC</text>
+  <text x="350" y="720" text-anchor="middle" fill="#fffdf8" font-family="Georgia,serif" font-size="57" font-weight="bold">HABITS</text>
+  <text x="350" y="825" text-anchor="middle" fill="#ead9d0" font-family="Arial,sans-serif" font-size="22" letter-spacing="3">JAMES CLEAR</text>
+  <text x="350" y="875" text-anchor="middle" fill="#d6b477" font-family="Arial,sans-serif" font-size="16" letter-spacing="4">BOOKHAVEN EDITION</text>
+</svg>
