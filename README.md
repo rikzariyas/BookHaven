@@ -10,55 +10,55 @@ The project is built using **HTML, CSS, Bootstrap 5, and JavaScript**, with a fo
 
 ### 🏠 Landing Page
 
-* Attractive classic bookstore-themed design
-* Hero section with call-to-action buttons
-* Featured books section
-* Browse by category
-* Why Choose Us section
-* Newsletter subscription
-* Responsive footer
+- Attractive classic bookstore-themed design
+- Hero section with call-to-action buttons
+- Featured books section
+- Browse by category
+- Why Choose Us section
+- Newsletter subscription
+- Responsive footer
 
 ### 📖 Book Browsing
 
-* Dynamically rendered book cards
-* Book cover, title, author, rating, price, and category
-* Search books by:
+- Dynamically rendered book cards
+- Book cover, title, author, rating, price, and category
+- Search books by:
+  - Title
+  - Author
+  - Category
 
-  * Title
-  * Author
-  * Category
-* Category-based browsing
+- Category-based browsing
 
 ### 🔍 Book Details
 
 Clicking on a book opens a dedicated details page containing:
 
-* Book cover
-* Title
-* Author
-* Rating
-* Current price
-* Original price
-* Discount
-* Description
-* Publisher
-* Publication date
-* ISBN
-* Number of pages
-* Language
-* Category
+- Book cover
+- Title
+- Author
+- Rating
+- Current price
+- Original price
+- Discount
+- Description
+- Publisher
+- Publication date
+- ISBN
+- Number of pages
+- Language
+- Category
 
 ### 🛒 Shopping Cart
 
-* Add books to cart
-* Remove books from cart
-* Increase/decrease quantity
-* Automatically calculate subtotal
-* Calculate discounts
-* Calculate total price
-* Cart item counter
-* Cart data stored using `localStorage`
-* Cart remains available after refreshing the page
+- Add books to cart
+- Remove books from cart
+- Increase/decrease quantity
+- Automatically calculate subtotal
+- Calculate discounts
+- Calculate total price
+- Cart item counter
+- Cart data stored using `localStorage`
+- Cart remains available after refreshing the page
 
 ### 🔐 Authentication
 
@@ -68,19 +68,19 @@ Frontend-based login and registration functionality.
 
 Users can register using:
 
-* Full Name
-* Email
-* Phone Number
-* Password
-* Confirm Password
+- Full Name
+- Email
+- Phone Number
+- Password
+- Confirm Password
 
 #### Login
 
 Users can log in using:
 
-* Email
-* Password
-* Remember Me
+- Email
+- Password
+- Remember Me
 
 > **Note:** Authentication is implemented using `localStorage` for demonstration purposes only. It is not suitable for production because real authentication requires a secure backend and password handling.
 
@@ -92,17 +92,25 @@ BookHaven follows a **classic and premium bookstore aesthetic**.
 
 ### Design Characteristics
 
-* Warm cream and beige backgrounds
-* Dark brown typography
-* Burgundy accents
-* Elegant serif headings
-* Clean sans-serif body text
-* Subtle shadows
-* Smooth hover effects
-* Responsive Bootstrap components
-* Minimal and professional animations
+- Warm cream and beige backgrounds
+- Dark brown typography
+- Burgundy accents
+- Elegant serif headings
+- Clean sans-serif body text
+- Subtle shadows
+- Smooth hover effects
+- Responsive Bootstrap components
+- Minimal and professional animations
 
 The goal is to make the website feel like a traditional bookstore while providing a modern online shopping experience.
+
+---
+
+## 📸 Screenshots
+
+### BookHaven Website
+
+![BookHaven website preview](images/outlook.png)
 
 ---
 
@@ -162,17 +170,17 @@ Example:
 
 ```javascript
 const books = [
-    {
-        id: 1,
-        title: "The Great Gatsby",
-        author: "F. Scott Fitzgerald",
-        price: 399,
-        originalPrice: 499,
-        rating: 4.5,
-        category: "Classic",
-        image: "images/gatsby.jpg",
-        description: "A classic novel about..."
-    }
+  {
+    id: 1,
+    title: "The Great Gatsby",
+    author: "F. Scott Fitzgerald",
+    price: 399,
+    originalPrice: 499,
+    rating: 4.5,
+    category: "Classic",
+    image: "images/gatsby.jpg",
+    description: "A classic novel about...",
+  },
 ];
 ```
 
@@ -293,10 +301,10 @@ Again, this is a **frontend demonstration only** and should not be used as produ
 
 BookHaven is designed to work across:
 
-* 📱 Mobile phones
-* 📲 Tablets
-* 💻 Laptops
-* 🖥️ Desktop computers
+- 📱 Mobile phones
+- 📲 Tablets
+- 💻 Laptops
+- 🖥️ Desktop computers
 
 Bootstrap's responsive grid system is used to ensure that content automatically adapts to different screen sizes.
 
@@ -342,22 +350,22 @@ The website will open in your browser.
 
 Before deploying the project, verify:
 
-* [x] Homepage loads correctly
-* [x] Navigation works
-* [x] Books load dynamically
-* [x] Search functionality works
-* [x] Book details page works
-* [x] Correct book information is displayed
-* [x] Add to Cart works
-* [x] Cart counter updates
-* [x] Quantity controls work
-* [x] Remove from cart works
-* [x] Cart total calculates correctly
-* [x] Cart persists after refresh
-* [x] Login validation works
-* [x] Signup validation works
-* [x] Responsive layout works
-* [x] No JavaScript errors appear in the console
+- [x] Homepage loads correctly
+- [x] Navigation works
+- [x] Books load dynamically
+- [x] Search functionality works
+- [x] Book details page works
+- [x] Correct book information is displayed
+- [x] Add to Cart works
+- [x] Cart counter updates
+- [x] Quantity controls work
+- [x] Remove from cart works
+- [x] Cart total calculates correctly
+- [x] Cart persists after refresh
+- [x] Login validation works
+- [x] Signup validation works
+- [x] Responsive layout works
+- [x] No JavaScript errors appear in the console
 
 ---
 
@@ -365,20 +373,20 @@ Before deploying the project, verify:
 
 The project can be extended with:
 
-* Backend authentication
-* MongoDB/MySQL database
-* Node.js and Express.js backend
-* Real payment gateway
-* User profiles
-* Order history
-* Wishlist functionality
-* Product reviews and ratings
-* Admin dashboard
-* Book inventory management
-* Real-time order tracking
-* Email notifications
-* Secure authentication with JWT
-* REST API integration
+- Backend authentication
+- MongoDB/MySQL database
+- Node.js and Express.js backend
+- Real payment gateway
+- User profiles
+- Order history
+- Wishlist functionality
+- Product reviews and ratings
+- Admin dashboard
+- Book inventory management
+- Real-time order tracking
+- Email notifications
+- Secure authentication with JWT
+- REST API integration
 
 ---
 
@@ -386,15 +394,15 @@ The project can be extended with:
 
 This project was created to demonstrate practical skills in:
 
-* Frontend web development
-* Bootstrap responsive design
-* JavaScript DOM manipulation
-* JavaScript objects and arrays
-* LocalStorage
-* Form validation
-* Dynamic content rendering
-* E-commerce functionality
-* UI/UX design
+- Frontend web development
+- Bootstrap responsive design
+- JavaScript DOM manipulation
+- JavaScript objects and arrays
+- LocalStorage
+- Form validation
+- Dynamic content rendering
+- E-commerce functionality
+- UI/UX design
 
 It can also serve as a **portfolio project for demonstrating frontend and JavaScript skills to recruiters**.
 
@@ -408,14 +416,14 @@ BCA Graduate | Full-Stack Web Developer
 
 ### Skills Demonstrated
 
-* HTML
-* CSS
-* Bootstrap
-* JavaScript
-* Responsive Web Design
-* DOM Manipulation
-* LocalStorage
-* Git & GitHub
+- HTML
+- CSS
+- Bootstrap
+- JavaScript
+- Responsive Web Design
+- DOM Manipulation
+- LocalStorage
+- Git & GitHub
 
 ---
 
